@@ -15,7 +15,7 @@ export async function GET(request : NextRequest){
     })
 
     //set cookies
-
+    sessionStorage.removeItem('user');
     respone.cookies.delete("token");
 
     return respone;

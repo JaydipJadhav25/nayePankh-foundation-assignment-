@@ -69,7 +69,8 @@ export async function POST(request : NextRequest){
      })
  
      //set cookies
- 
+    //  sessionStorage.setItem("user" , user);
+    //  localStorage.setItem('token', token); 
      respone.cookies.set("token" , token);
  
      return respone;

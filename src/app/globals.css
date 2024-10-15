@@ -17,13 +17,38 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+
+/* 
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to right, white 50%, red 50%); */
+
+
+      /* margin: 0;
+      height: 100vh;
+      background: 
+          linear-gradient(to right, white 50%, red 50%),
+          linear-gradient(to bottom, white 50%, red 50%);
+      background-size: 100% 50%, 50% 100%;
+      background-position: top, left;
+      background-repeat: no-repeat; */
+
+      /* margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, white 50%, red 50%); */
+      height: 100vh;
+      background: 
+          linear-gradient(135deg, white 50%, red 50%) no-repeat, 
+          blue;
+      background-size: 100% 100%;
+  
 }
 
 @layer utilities {
@@ -31,3 +56,4 @@ body {
     text-wrap: balance;
   }
 }
+

@@ -9,15 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.19.0",
     "axios": "^1.7.4",
     "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.8",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.3",
     "next": "^14.2.5",
     "nodemailer": "^6.9.14",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

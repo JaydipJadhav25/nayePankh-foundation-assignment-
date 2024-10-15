@@ -2,7 +2,8 @@ import Image from "next/image";
 // import { NextRequest } from "next/server";
 import jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers'; 
-
+import SidebarDemo from "./home/page";
+import { div } from "framer-motion/client";
 const secretKey = "superMan@123";
 
 
@@ -44,11 +45,9 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    {
-      token &&
-      JSON.stringify(user)
-    }
-    </main>
+   <div>
+ <SidebarDemo name={"jaydip"}/>
+
+   </div>
   );
 }
